@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    height: auto;
+}
+
+.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+body{
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-section{
+    background-color: #1F2937;
+    color: white;
+    padding: 1.5rem 2.5rem;
+    min-width: 100vh;
+    min-height: 100svh;
+}
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.m-width-1000{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.logo{
+    font-size: 2.4rem;
+    color: #f9faf8;
+}
+
+.hero{
+    margin-block: 10rem;
+    display: flex;
+    gap: 4.5rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.hero-body{
+    flex: 2 1 400px;
+}
+
+.hero-image{
+    flex: auto;
+    min-width: 300px;
+}
+
+h1{
+    font-family: poppins, sans-serif;
+    font-size: 4.8rem;
+    color: #f9faf8;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+.hero-body p{
+    text-wrap: pretty;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    padding: 1.4rem 2.5rem;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .2s linear, background-color .2s linear;
+}
+
+.btn:hover {
+    color: #3882f6;
+    background-color: white;
+}
+
+.btn, .call-to-action {
+    background-color: #3882f6;
+    color: white;
+}
+
+.why-us{
+    text-align: center;
+    margin-block: 4rem 8rem;
+    padding-inline: 3rem;
+}
+
+.why-us h2{
+    font-size: 3.6rem;
+    font-family: poppins, sans-serif;
+    color: #1f2937;
+    margin-bottom: 3rem;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 980px;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+.card{
+    border: 3px #3f3d56 solid;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card img{
+    flex: 1;
+}
+
+.card p{
+    font-size: 2rem;
+    text-wrap: balance;
+}
+
+.products img{
+    width: 80%;
+}
+
+.review {
+    background-color: #e5e7eb;
+    margin-bottom: 8rem;
+    padding-block: 6rem;
+}
+
+.review div{
+    display: flex;
+    max-width: 840px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-inline: 3rem;
+}
+
+.quote {
+    font-size: 3.6rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+}
+
+.call-to-action .text{
+    width: 70%;
+}
+
+.call-to-action h3 {
+    font-size: 3.5rem;
+}
+
+.call-to-action p {
+    font-size: 2rem;
+
+    margin: 1.2rem;
+}
+
+.btn.sign-up {
+    border: 2px solid white;
+}
+
+footer{
+    padding-block: 5rem;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 2rem;
+}
